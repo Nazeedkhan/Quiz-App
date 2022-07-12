@@ -50,7 +50,7 @@ loadQuiz();
 function loadQuiz() {
   deselectAnswers();
   const currentQuizData = quizData[currentQuiz];
-  questionEL.innertext = currentQuizData.question;
+  questionEL.innerText = currentQuizData.question;
   a_text.innerText = currentQuizData.a;
   b_text.innerText = currentQuizData.b;
   c_text.innerText = currentQuizData.c;
